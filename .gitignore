@@ -1,0 +1,11 @@
+*.csproj.user
+*.csproj.Debug.cachefile
+*.suo
+*bin
+*obj
+*Properties
+*TestResult.xml
+*Tests-Results.xml
+*VisualState.xml
+*sln.cache
+packages
