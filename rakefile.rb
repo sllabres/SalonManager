@@ -16,10 +16,10 @@ nunit :test => :build do |nunit|
 end
 
 task :git_commit_and_push => :test_javascript do
-	puts "Committing changes."
-	puts `git add .`	
-	puts `git commit -m "Automated Commit"`
-	puts `git push origin master`
+	#puts "Committing changes."
+	#puts `git add .`	
+	#puts `git commit -m "Automated Commit"`
+	#puts `git push origin master`
 end
 
 task :test_javascript => :test do
