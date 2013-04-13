@@ -3,7 +3,6 @@
 *.suo
 *bin
 *obj
-*Properties
 *TestResult.xml
 *Tests-Results.xml
 *VisualState.xml
