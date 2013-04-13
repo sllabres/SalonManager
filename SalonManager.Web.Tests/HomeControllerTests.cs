@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
+using SalonManager.Web.Controllers;
 
 namespace SalonManager.Web.Tests
 {
@@ -11,9 +12,11 @@ namespace SalonManager.Web.Tests
     public class HomeControllerTests
     {
         [Test]
-        public void FirstTest()
-        {            
-            Assert.True(true);
+        public void WhenCallingIndexThenViewReturned()
+        {
+            var homeController = new HomeController();
+            var actionResult = homeController.Index();
+            Assert.NotNull(actionResult);
         }
     }
 }

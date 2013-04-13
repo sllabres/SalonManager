@@ -1,17 +1,14 @@
 ﻿@{
-    Layout = null;
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/SiteLayout.cshtml";
 }
 
-<!DOCTYPE html>
+<h1>Login</h1>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div>
-        <h1>TODO: Login Page</h1>      
-    </div>
-</body>
-</html>
+<form method="post" action="~/Home/Login">
+    Email <br />
+    @Html.TextBox("Email") <br />    
+    Password <br />
+    @Html.Password("Password") <br />
+    <input type="submit" value="Login" /> <br />    
+</form>
