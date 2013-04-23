@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using SalonManager.Web.Models;
+using SalonManager.Commands;
+
 
 namespace SalonManager.Web.Controllers
 {
@@ -18,6 +20,8 @@ namespace SalonManager.Web.Controllers
         [HttpPost]
         public ActionResult Login(UserLogin userLogin)
         {
+            new LoginCommand().Execute();
+
             return RedirectToAction("Index");
         }
     }

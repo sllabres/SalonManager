@@ -7,6 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D629BB98
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalonManager.Web.Tests", "SalonManager.Web.Tests\SalonManager.Web.Tests.csproj", "{AC0176D2-A5C0-4621-B048-A5C9323EE777}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalonManager.Commands", "SalonManager.Commands\SalonManager.Commands.csproj", "{FB69551F-6F18-43D0-AB29-056A015A4426}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C019875E-7F09-4F84-BF73-E5D55AD1D740}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +30,10 @@ Global
 		{AC0176D2-A5C0-4621-B048-A5C9323EE777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC0176D2-A5C0-4621-B048-A5C9323EE777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC0176D2-A5C0-4621-B048-A5C9323EE777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB69551F-6F18-43D0-AB29-056A015A4426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB69551F-6F18-43D0-AB29-056A015A4426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB69551F-6F18-43D0-AB29-056A015A4426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB69551F-6F18-43D0-AB29-056A015A4426}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
