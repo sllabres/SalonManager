@@ -19,7 +19,7 @@ namespace SalonManager.Commands
             _store = Wireup.Init()
                 .UsingRavenPersistence("RavenDb")
                 .InitializeStorageEngine()
-                .UsingSynchronousDispatchScheduler()
+                .UsingSynchronousDispatchScheduler()                
                 .DispatchTo(test)
                 .Build();            
         }
